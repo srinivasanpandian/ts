@@ -39,16 +39,18 @@ function App() {
       <main className="main-content">
         <div className="container">
           <h2 className="section-title">Event Registration & Services</h2>
+        
           <div className="cards-container">
+
             
             {/* Vendor Registration Card */}
             <a 
               href="https://customerappstaging.web.app/restaurant/tamil-sangam-aubrey/menu/Pickup/event/chithirai-thiruvizha-ventors" 
-              target="_blank" 
+              target="_blank"   
               rel="noopener noreferrer"
-              className="card-link"
+              className="card-link" 
             >
-              <div className="browser vendor-card">
+              <div className="browser vendor-card ">
                 <div className="tabs-head">
                   <div className="tabs">
                     <div className="tab-open">
@@ -96,7 +98,7 @@ function App() {
               rel="noopener noreferrer"
               className="card-link"
             >
-              <div className="browser member-card">
+              <div className="browser member-card ">
                 <div className="tabs-head">
                   <div className="tabs">
                     <div className="tab-open">
@@ -144,7 +146,7 @@ function App() {
               rel="noopener noreferrer"
               className="card-link"
             >
-              <div className="browser food-card">
+              <div className="browser food-card ">
                 <div className="tabs-head">
                   <div className="tabs">
                     <div className="tab-open">
@@ -185,6 +187,7 @@ function App() {
               </div>
             </a>
 
+          
           </div>
         </div>
       </main>
